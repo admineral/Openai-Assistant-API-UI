@@ -4,36 +4,24 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import TabsComponent from './TabsComponent';
 import { Button } from "@/components/ui/button";
 import MessageInput from './Create/MessageInput_Left';
+import { useChat } from 'ai/react'; // Import useChat
 
 type Message = {
   id: string;
-  role: 'user' | 'assistant';
+  role: 'user' | 'assistant' | 'function' | 'system';
   content: string;
 };
 
 const LeftPanel: React.FC = () => {
   const [activeTab, setActiveTab] = useState('create');
-  const [messages, setMessages] = useState<Message[]>([]);
-  const [isSending, setIsSending] = useState(false);
 
-  const handleSendMessage = (newContent: string) => {
-    const newUserMessage: Message = {
-      id: Date.now().toString(),
-      role: 'user',
-      content: newContent,
-    };
-    setMessages([...messages, newUserMessage]);
+  // Use useChat hook from Vercel AI SDK
+  const { messages, append, isLoading } = useChat();
 
-    setIsSending(true);
-    setTimeout(() => {
-      const newAssistantMessage: Message = {
-        id: (Date.now() + 1).toString(),
-        role: 'assistant',
-        content: 'This is a simulated response from the assistant.',
-      };
-      setMessages((currentMessages) => [...currentMessages, newAssistantMessage]);
-      setIsSending(false);
-    }, 2000);
+  // Function to handle sending of messages
+  const handleSendMessage = async (message: string) => {
+    console.log(`Sending message: ${message}`); // Log the message being sent
+    await append({ role: 'user', content: message }); // Append the message to the chat
   };
 
   return (
@@ -57,8 +45,8 @@ const LeftPanel: React.FC = () => {
       </ScrollArea>
       {activeTab === 'create' && (
         <MessageInput
-          onSendMessage={handleSendMessage}
-          isLoading={isSending}
+          onSendMessage={handleSendMessage} // Pass handleSendMessage as prop to MessageInput
+          isLoading={isLoading} // Pass isLoading as prop to MessageInput
         />
       )}
     </div>

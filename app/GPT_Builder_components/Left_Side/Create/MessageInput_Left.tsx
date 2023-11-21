@@ -1,5 +1,5 @@
 // MessageInput_Left.tsx
-import React, { useState, FormEvent } from 'react';
+import React, { useState } from 'react';
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
@@ -11,7 +11,7 @@ interface MessageInputProps {
 const MessageInput: React.FC<MessageInputProps> = ({ onSendMessage, isLoading }) => {
   const [input, setInput] = useState('');
 
-  const handleSend = (event: FormEvent) => {
+  const handleSend = (event: React.FormEvent) => {
     event.preventDefault(); // Prevent page refresh
     if (input.trim()) {
       onSendMessage(input);
