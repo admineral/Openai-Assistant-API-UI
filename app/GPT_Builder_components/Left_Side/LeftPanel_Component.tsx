@@ -27,8 +27,8 @@ const LeftPanel: React.FC = () => {
   };
 
   return (
-    <div className="w-1/2 bg-gray-800 p-8 flex flex-col h-screen">
-      <div className="flex mb-2">
+<div className="w-1/2 bg-gray-800 p-8 flex flex-col h-screen border-r border-blue-100">
+  <div className="flex mb-2">
         <Button 
           onClick={() => setActiveTab('create')}
           className={`flex-1 ${activeTab === 'create' ? 'bg-white text-gray-900 shadow-lg' : 'bg-gray-700 text-gray-400'} py-2 px-4 rounded-l-lg transition duration-300 ease-in-out`}
