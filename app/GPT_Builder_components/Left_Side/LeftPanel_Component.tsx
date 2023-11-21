@@ -6,11 +6,13 @@ import { Button } from "@/components/ui/button";
 import MessageInput from './Create/MessageInput_Left';
 import { useChat } from 'ai/react'; // Import useChat
 
+
 type Message = {
   id: string;
   role: 'user' | 'assistant' | 'function' | 'system';
   content: string;
 };
+
 
 const LeftPanel: React.FC = () => {
   const [activeTab, setActiveTab] = useState('create');

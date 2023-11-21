@@ -7,7 +7,7 @@ import Chat from './Create/Chat/ChatBot';
 
 type Message = {
   id: string;
-  role: 'user' | 'assistant';
+  role: 'user' | 'assistant' | 'function' | 'system';
   content: string;
 };
 
