@@ -1,0 +1,9 @@
+{
+	"id": "cVPxlbnkmA2TcrH",
+	"json": "{\"id\":\"cVPxlbnkmA2TcrH\",\"url\":\"https://nextjs.org/docs/app/api-reference/functions/revalidatePath\",\"uniqueKey\":\"https://nextjs.org/docs/app/api-reference/functions/revalidatePath\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
+	"method": "GET",
+	"orderNo": 1700760874004,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath",
+	"url": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath"
+}

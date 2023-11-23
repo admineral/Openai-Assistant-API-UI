@@ -1,0 +1,9 @@
+{
+	"id": "Ih71VjHh8AdI1rf",
+	"json": "{\"id\":\"Ih71VjHh8AdI1rf\",\"url\":\"https://nextjs.org/docs/app/building-your-application/configuring/content-security-policy\",\"uniqueKey\":\"https://nextjs.org/docs/app/building-your-application/configuring/content-security-policy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
+	"method": "GET",
+	"orderNo": 1700760873993,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org/docs/app/building-your-application/configuring/content-security-policy",
+	"url": "https://nextjs.org/docs/app/building-your-application/configuring/content-security-policy"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Y475GNKnPxlDw2v",
+	"json": "{\"id\":\"Y475GNKnPxlDw2v\",\"url\":\"https://nextjs.org/\",\"loadedUrl\":\"https://nextjs.org/\",\"uniqueKey\":\"https://nextjs.org\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false,\"state\":4}},\"handledAt\":\"2023-11-23T17:34:34.724Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org",
+	"url": "https://nextjs.org/"
+}

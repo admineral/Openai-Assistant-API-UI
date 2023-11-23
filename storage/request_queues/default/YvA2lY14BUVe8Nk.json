@@ -1,0 +1,9 @@
+{
+	"id": "YvA2lY14BUVe8Nk",
+	"json": "{\"id\":\"YvA2lY14BUVe8Nk\",\"url\":\"https://nextjs.org/docs/app/api-reference/file-conventions/loading\",\"uniqueKey\":\"https://nextjs.org/docs/app/api-reference/file-conventions/loading\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
+	"method": "GET",
+	"orderNo": 1700760873997,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org/docs/app/api-reference/file-conventions/loading",
+	"url": "https://nextjs.org/docs/app/api-reference/file-conventions/loading"
+}

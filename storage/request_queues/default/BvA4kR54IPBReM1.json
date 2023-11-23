@@ -1,0 +1,9 @@
+{
+	"id": "BvA4kR54IPBReM1",
+	"json": "{\"id\":\"BvA4kR54IPBReM1\",\"url\":\"https://nextjs.org/docs/app/api-reference/next-cli\",\"uniqueKey\":\"https://nextjs.org/docs/app/api-reference/next-cli\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
+	"method": "GET",
+	"orderNo": 1700760874054,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org/docs/app/api-reference/next-cli",
+	"url": "https://nextjs.org/docs/app/api-reference/next-cli"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "WKt21IZpddrMd24",
+	"json": "{\"id\":\"WKt21IZpddrMd24\",\"url\":\"https://nextjs.org/docs/pages/api-reference/functions/get-static-paths\",\"uniqueKey\":\"https://nextjs.org/docs/pages/api-reference/functions/get-static-paths\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
+	"method": "GET",
+	"orderNo": 1700760874107,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org/docs/pages/api-reference/functions/get-static-paths",
+	"url": "https://nextjs.org/docs/pages/api-reference/functions/get-static-paths"
+}

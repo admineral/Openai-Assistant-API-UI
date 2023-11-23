@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     
-    "target": "es5",
+    "target": "es2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -24,6 +24,6 @@
     }
   },
   
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/api/deleteFile/route.ts", "app/api/chat/route.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/api/deleteFile/route.ts", "app/api/chat/route.js", "server.js"],
   "exclude": ["node_modules"]
 }

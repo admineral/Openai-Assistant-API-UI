@@ -1,0 +1,9 @@
+{
+	"id": "n3GWCkX87Gt5fJO",
+	"json": "{\"id\":\"n3GWCkX87Gt5fJO\",\"url\":\"https://nextjs.org/docs/app/building-your-application/data-fetching/patterns\",\"uniqueKey\":\"https://nextjs.org/docs/app/building-your-application/data-fetching/patterns\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
+	"method": "GET",
+	"orderNo": 1700760873983,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org/docs/app/building-your-application/data-fetching/patterns",
+	"url": "https://nextjs.org/docs/app/building-your-application/data-fetching/patterns"
+}

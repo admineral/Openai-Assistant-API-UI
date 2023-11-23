@@ -1,0 +1,9 @@
+{
+	"id": "XaIJ745KFrkAkZT",
+	"json": "{\"id\":\"XaIJ745KFrkAkZT\",\"url\":\"https://nextjs.org/docs/app/building-your-application/configuring\",\"uniqueKey\":\"https://nextjs.org/docs/app/building-your-application/configuring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
+	"method": "GET",
+	"orderNo": 1700760873990,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org/docs/app/building-your-application/configuring",
+	"url": "https://nextjs.org/docs/app/building-your-application/configuring"
+}

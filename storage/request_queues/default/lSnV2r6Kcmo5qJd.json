@@ -1,0 +1,9 @@
+{
+	"id": "lSnV2r6Kcmo5qJd",
+	"json": "{\"id\":\"lSnV2r6Kcmo5qJd\",\"url\":\"https://nextjs.org/docs\",\"loadedUrl\":\"https://nextjs.org/docs\",\"uniqueKey\":\"https://nextjs.org/docs\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-11-23T17:34:34.124Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nextjs.org/docs",
+	"url": "https://nextjs.org/docs"
+}
