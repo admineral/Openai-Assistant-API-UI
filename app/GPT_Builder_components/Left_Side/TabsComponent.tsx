@@ -1,5 +1,5 @@
 // TabsComponent.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import { Tabs, TabsContent } from "@/components/ui/tabs";
 import CreateContent from './Create/CreateContent';
 import ConfigureContent from './Configure/ConfigureContent';
@@ -11,12 +11,23 @@ type Message = {
   content: string;
 };
 
+interface FileData {
+  name: string;
+  fileId?: string;
+  status?: 'uploading' | 'uploaded' | 'failed';
+}
+
 interface TabsComponentProps {
   activeTab: string;
   messages: Message[];
 }
 
 const TabsComponent: React.FC<TabsComponentProps> = ({ activeTab, messages }) => {
+  const [knowledgeRetrieval, setKnowledgeRetrieval] = useState(true);
+  const [files, setFiles] = useState<FileData[]>([]);
+  const [name, setName] = useState(''); // Add this line
+  const [instructions, setInstructions] = useState(''); // Add this line
+
   return (
     <Tabs value={activeTab} className="h-full flex flex-col">
       <TabsContent value="create" className="flex-grow overflow-auto">
@@ -24,7 +35,16 @@ const TabsComponent: React.FC<TabsComponentProps> = ({ activeTab, messages }) =>
         {activeTab === 'create' && <Chat messages={messages} />}
       </TabsContent>
       <TabsContent value="configure">
-        <ConfigureContent />
+        <ConfigureContent 
+          knowledgeRetrieval={knowledgeRetrieval} 
+          setKnowledgeRetrieval={setKnowledgeRetrieval} 
+          files={files} 
+          setFiles={setFiles} 
+          name={name} // Add this line
+          setName={setName} // Add this line
+          instructions={instructions} // Add this line
+          setInstructions={setInstructions} // Add this line
+        />
       </TabsContent>
     </Tabs>
   );
