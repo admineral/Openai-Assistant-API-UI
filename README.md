@@ -14,9 +14,6 @@ This project provides a user interface for the OpenAI Assistant API. It allows f
 
 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/admineral/Openai-Assistant-API-UI/&env=OPENAI_API_KEY)
-
-
 
 Create(GPT Builder Assistant)
 
