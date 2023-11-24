@@ -1,7 +1,7 @@
-#Work in Progress !!
+# Work in Progress !!
 
 
-##OpenAI Assistant API UI
+## OpenAI Assistant API UI
 
 This project provides a user interface for the OpenAI Assistant API. It allows for interaction with an AI assistant powered by OpenAI's
 
@@ -9,7 +9,12 @@ This project provides a user interface for the OpenAI Assistant API. It allows f
 - Interaction with the assistant via a chat interface
 - Capabilities of the assistant, such as knowledge retrieval and more soon!
 
+Create(GPT Builder Assistant)
+
 ![Preview](https://github.com/admineral/Openai-Assistant-API-UI/blob/main/public/preview.png)
+
+
+Configure
 
 ![Preview](https://github.com/admineral/Openai-Assistant-API-UI/blob/main/public/preview_2.png)
 
