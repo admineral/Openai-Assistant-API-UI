@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#Work in Progress !!
+
+
+##OpenAI Assistant API UI
+
+This project provides a user interface for the OpenAI Assistant API. It allows for interaction with an AI assistant powered by OpenAI's
+
+- Creation and configuration of AI assistants
+- Interaction with the assistant via a chat interface
+- Capabilities of the assistant, such as knowledge retrieval and more soon!
+
+![Preview](https://github.com/admineral/Openai-Assistant-API-UI/blob/main/public/preview.png)
+
+![Preview](https://github.com/admineral/Openai-Assistant-API-UI/blob/main/public/preview_2.png)
 
 ## Getting Started
 
