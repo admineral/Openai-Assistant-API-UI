@@ -1,9 +1,0 @@
-{
-	"id": "7RUkP6ItOL0A8ol",
-	"json": "{\"id\":\"7RUkP6ItOL0A8ol\",\"url\":\"https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation\",\"uniqueKey\":\"https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
-	"method": "GET",
-	"orderNo": 1700760873990,
-	"retryCount": 0,
-	"uniqueKey": "https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation",
-	"url": "https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation"
-}

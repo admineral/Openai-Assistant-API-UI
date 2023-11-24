@@ -1,15 +1,10 @@
 // TabsComponent.tsx
-import React, { useState } from 'react';
+import React, { Dispatch, SetStateAction, useState } from 'react';
 import { Tabs, TabsContent } from "@/components/ui/tabs";
 import CreateContent from './Create/CreateContent';
 import ConfigureContent from './Configure/ConfigureContent';
 import Chat from './Create/Chat/ChatBot';
-
-type Message = {
-  id: string;
-  role: 'user' | 'assistant' | 'function' | 'system';
-  content: string;
-};
+import { Message } from './LeftPanel_Component';
 
 interface FileData {
   name: string;
@@ -17,16 +12,18 @@ interface FileData {
   status?: 'uploading' | 'uploaded' | 'failed';
 }
 
-interface TabsComponentProps {
+type TabsComponentProps = {
   activeTab: string;
   messages: Message[];
-}
+  name: string;
+  setName: Dispatch<SetStateAction<string>>;
+  instructions: string;
+  setInstructions: Dispatch<SetStateAction<string>>;
+};
 
-const TabsComponent: React.FC<TabsComponentProps> = ({ activeTab, messages }) => {
+const TabsComponent: React.FC<TabsComponentProps> = ({ activeTab, messages, name, setName, instructions, setInstructions }) => {
   const [knowledgeRetrieval, setKnowledgeRetrieval] = useState(true);
   const [files, setFiles] = useState<FileData[]>([]);
-  const [name, setName] = useState(''); // Add this line
-  const [instructions, setInstructions] = useState(''); // Add this line
 
   return (
     <Tabs value={activeTab} className="h-full flex flex-col">
@@ -40,10 +37,10 @@ const TabsComponent: React.FC<TabsComponentProps> = ({ activeTab, messages }) =>
           setKnowledgeRetrieval={setKnowledgeRetrieval} 
           files={files} 
           setFiles={setFiles} 
-          name={name} // Add this line
-          setName={setName} // Add this line
-          instructions={instructions} // Add this line
-          setInstructions={setInstructions} // Add this line
+          name={name} 
+          setName={setName} 
+          instructions={instructions} 
+          setInstructions={setInstructions} 
         />
       </TabsContent>
     </Tabs>

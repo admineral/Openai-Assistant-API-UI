@@ -86,10 +86,10 @@ const UploadFiles_Configure: React.FC<UploadFilesProps> = ({ files, setFiles }) 
               <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-2 flex-grow">
                   <span className={`h-3 w-3 rounded-full ${file.status === 'uploading' ? 'bg-orange-500' : file.fileId ? 'bg-green-500' : 'bg-red-500'}`}></span>
-                  <div className="truncate">
+                  <div className="truncate w-0 flex-grow">
                     <Tooltip>
                       <TooltipTrigger>
-                        <p className="font-medium">{file.name.length > 20 ? `${file.name.substring(0, 20)}...` : file.name}</p>
+                        <p className="font-medium truncate">{file.name.length > 20 ? `${file.name.substring(0, 20)}...` : file.name}</p>
                       </TooltipTrigger>
                       <TooltipContent>
                         {`Filename: ${file.name}`}
@@ -142,7 +142,6 @@ const UploadFiles_Configure: React.FC<UploadFilesProps> = ({ files, setFiles }) 
       </div>
     </TooltipProvider>
   );
-
 };
 
 export default UploadFiles_Configure;

@@ -1,9 +1,0 @@
-{
-	"id": "mkc62JFYSjLC4fU",
-	"json": "{\"id\":\"mkc62JFYSjLC4fU\",\"url\":\"https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props\",\"uniqueKey\":\"https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
-	"method": "GET",
-	"orderNo": 1700760874088,
-	"retryCount": 0,
-	"uniqueKey": "https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props",
-	"url": "https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props"
-}

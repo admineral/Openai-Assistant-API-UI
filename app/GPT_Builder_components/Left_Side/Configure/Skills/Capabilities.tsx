@@ -1,5 +1,5 @@
 // Capabilities.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -35,6 +35,8 @@ const Capabilities: React.FC<CapabilitiesProps> = ({
   const { watch } = form;
   const watchKnowledgeRetrieval = watch("Knowledge_Retrieval", false);
   const watchWebCrawler = watch("Web_Crawler", false);
+  const [disableSwitch, setDisableSwitch] = useState(true);
+
   
   React.useEffect(() => {
     if (watchKnowledgeRetrieval !== undefined) {
@@ -66,7 +68,7 @@ const Capabilities: React.FC<CapabilitiesProps> = ({
                       </FormDescription>
                     </div>
                     <FormControl>
-                      <Switch checked={field.value} onCheckedChange={field.onChange} />
+                    <Switch checked={field.value} onCheckedChange={field.onChange} />
                     </FormControl>
                   </FormItem>
                 )}
@@ -85,7 +87,7 @@ const Capabilities: React.FC<CapabilitiesProps> = ({
                       </FormDescription>
                     </div>
                     <FormControl>
-                      <Switch checked={field.value} onCheckedChange={field.onChange} />
+                    <Switch checked={field.value} onCheckedChange={field.onChange} disabled={disableSwitch} />
                     </FormControl>
                   </FormItem>
                 )}

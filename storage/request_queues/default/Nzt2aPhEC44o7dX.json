@@ -1,9 +1,0 @@
-{
-	"id": "Nzt2aPhEC44o7dX",
-	"json": "{\"id\":\"Nzt2aPhEC44o7dX\",\"url\":\"https://nextjs.org/showcase\",\"uniqueKey\":\"https://nextjs.org/showcase\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
-	"method": "GET",
-	"orderNo": 1700760873968,
-	"retryCount": 0,
-	"uniqueKey": "https://nextjs.org/showcase",
-	"url": "https://nextjs.org/showcase"
-}

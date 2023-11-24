@@ -7,7 +7,8 @@ import MessageInput from './Create/MessageInput_Left';
 import { useChat } from 'ai/react'; // Import useChat
 
 
-type Message = {
+
+export type Message = {
   id: string;
   role: 'user' | 'assistant' | 'function' | 'system';
   content: string;
@@ -16,6 +17,8 @@ type Message = {
 
 const LeftPanel: React.FC = () => {
   const [activeTab, setActiveTab] = useState('create');
+  const [name, setName] = useState(''); // Add this line
+  const [instructions, setInstructions] = useState(''); // Add this line
 
   // Use useChat hook from Vercel AI SDK
   const { messages, append, isLoading } = useChat();
@@ -43,8 +46,15 @@ const LeftPanel: React.FC = () => {
         </Button>
       </div>
       <ScrollArea className="flex-grow">
-        <TabsComponent activeTab={activeTab} messages={messages} />
-      </ScrollArea>
+  <TabsComponent 
+    activeTab={activeTab} 
+    messages={messages} 
+    name={name} 
+    setName={setName} 
+    instructions={instructions} 
+    setInstructions={setInstructions} 
+  />
+</ScrollArea>
       {activeTab === 'create' && (
         <MessageInput
           onSendMessage={handleSendMessage} // Pass handleSendMessage as prop to MessageInput

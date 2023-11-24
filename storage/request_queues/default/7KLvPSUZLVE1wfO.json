@@ -1,9 +1,0 @@
-{
-	"id": "7KLvPSUZLVE1wfO",
-	"json": "{\"id\":\"7KLvPSUZLVE1wfO\",\"url\":\"https://nextjs.org/docs/pages/api-reference/next-config-js/webVitalsAttribution\",\"uniqueKey\":\"https://nextjs.org/docs/pages/api-reference/next-config-js/webVitalsAttribution\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
-	"method": "GET",
-	"orderNo": 1700760874117,
-	"retryCount": 0,
-	"uniqueKey": "https://nextjs.org/docs/pages/api-reference/next-config-js/webVitalsAttribution",
-	"url": "https://nextjs.org/docs/pages/api-reference/next-config-js/webVitalsAttribution"
-}

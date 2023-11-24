@@ -60,7 +60,7 @@ export async function POST(req) {
         console.log('Function result:', result);
       } catch (error) {
         if (error.message.includes('The requested model')) {
-          model = 'gpt-4-1106-preview'; // default model
+          model = 'gpt-3.5-turbo-1106'; // default model
           result = await runFunction(name, { ...args, model });
           console.log('Function result:', result);
         } else {

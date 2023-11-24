@@ -1,9 +1,0 @@
-{
-	"id": "Slv5mVdZ2dhUQ7q",
-	"json": "{\"id\":\"Slv5mVdZ2dhUQ7q\",\"url\":\"https://nextjs.org/docs/app/api-reference/next-config-js/generateEtags\",\"uniqueKey\":\"https://nextjs.org/docs/app/api-reference/next-config-js/generateEtags\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"skipNavigation\":false}}}",
-	"method": "GET",
-	"orderNo": 1700760874024,
-	"retryCount": 0,
-	"uniqueKey": "https://nextjs.org/docs/app/api-reference/next-config-js/generateEtags",
-	"url": "https://nextjs.org/docs/app/api-reference/next-config-js/generateEtags"
-}
