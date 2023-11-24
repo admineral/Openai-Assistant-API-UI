@@ -1,5 +1,5 @@
 # Work in Progress !!
-
+[![Live Demo](https://img.shields.io/badge/-Live%20Demo-green?style=for-the-badge)](https://openai-assistant-api-ui.vercel.app)
 
 ## OpenAI Assistant API UI
 
@@ -10,9 +10,12 @@ This project provides a user interface for the OpenAI Assistant API. It allows f
 - Capabilities of the assistant, such as knowledge retrieval and more soon!
 
 
-🔴 Live Demo](https://openai-assistant-api-ui.vercel.app)
+[🔴 Live Demo](https://openai-assistant-api-ui.vercel.app)
 
-Deploy on Vercel:
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/admineral/Openai-Assistant-API-UI/&env=OPENAI_API_KEY)
 
@@ -57,10 +60,4 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
