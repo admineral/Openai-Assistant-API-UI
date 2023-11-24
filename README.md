@@ -9,6 +9,15 @@ This project provides a user interface for the OpenAI Assistant API. It allows f
 - Interaction with the assistant via a chat interface
 - Capabilities of the assistant, such as knowledge retrieval and more soon!
 
+
+🔴 Live Demo](https://openai-assistant-api-ui.vercel.app)
+
+Deploy on Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/admineral/Openai-Assistant-API-UI/&env=OPENAI_API_KEY)
+
+
+
 Create(GPT Builder Assistant)
 
 ![Preview](https://github.com/admineral/Openai-Assistant-API-UI/blob/main/public/preview.png)
@@ -20,7 +29,7 @@ Configure
 
 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/admineral/Openai-Assistant-API-UI/&env=OPENAI_API_KEY)
+
 
 
 ## Getting Started
