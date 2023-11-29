@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-const BrowseStoreCard = ({ title, description, imageUrl }) => {
+interface BrowseStoreCardProps {
+  title: string;
+  description: string;
+  imageUrl: string;
+}
+
+const BrowseStoreCard: FC<BrowseStoreCardProps> = ({ title, description, imageUrl }) => {
   return (
     <div className="bg-[#1e293b] rounded-lg border border-[#334155] overflow-hidden shadow-lg hover:shadow-[0_6px_24px_rgba(0,0,0,0.15)] hover:border-[#64748b] transition-transform duration-300 ease-in-out hover:-translate-y-1">
       <div className="flex flex-col justify-between p-4">

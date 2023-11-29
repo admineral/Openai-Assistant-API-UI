@@ -22,7 +22,7 @@ const MainPage = () => {
         <BrowseStoreCard 
           title="Assistant Example 1"
           description="Description for Assistant 1"
-          imageUrl="placeholder_link" // Replace with actual image URL
+          imageUrl="https://cdn-icons-png.flaticon.com/512/3658/3658756.png" // Replace with actual image URL
         />
         
         {/* Repeat BrowseStoreCard for other items */}
