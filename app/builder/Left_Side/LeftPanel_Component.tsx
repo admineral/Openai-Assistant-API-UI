@@ -1,3 +1,5 @@
+"use client"
+
 // LeftPanel_Component.tsx
 import React, { useState } from 'react';
 import { ScrollArea } from "@/components/ui/scroll-area";
