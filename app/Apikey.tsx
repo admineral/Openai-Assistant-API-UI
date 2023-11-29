@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import Modal from 'react-modal';
+import Modal, { Styles } from 'react-modal';
 
 interface ApikeyProps {
   onApiKeySubmit: (key: string) => void;
@@ -12,7 +12,9 @@ interface ApikeyProps {
 
 const apiKeyLength = 40;
 
-const customStyles = {
+
+
+const customStyles: Styles = {
   content: {
     top: '50%',
     left: '50%',
